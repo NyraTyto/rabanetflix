@@ -1,13 +1,7 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
-      "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      },
+      "titulo": "Progamando",
       "videos": [
         {
           "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
@@ -40,17 +34,7 @@
         {
           "titulo": "Base para aprender os frameworks",
           "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
-      ]
-    },
-    {
-      "titulo": "Back End",
-      "cor": "#00C86F",
-      "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
-      "videos": [
+        },
         {
           "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
           "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
@@ -70,16 +54,11 @@
         {
           "titulo": "Usando Git Direito",
           "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
-        }
+        }        
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
-      },
+      "titulo": "Mundo da TI",
       "videos": [
         {
           "titulo": "Teste de Turing",
@@ -96,69 +75,7 @@
         {
           "titulo": "Como ingressar no mercado de Data Science?",
           "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
-        }
-      ]
-    },
-    {
-      "titulo": "Filmes",
-      "cor": "orange",
-      "videos": [
-        {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
         },
-        {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
-        },
-        {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-        },
-        {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-        }
-      ]
-    },
-    {
-      "titulo": "Games",
-      "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      },
-      "videos": [
-        {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
-        },
-        {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-        },
-        {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-        },
-        {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-        },
-        {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
-        }
-      ]
-    },
-    {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      },
-      "videos": [
         {
           "titulo": "Como estudar melhor?",
           "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
@@ -178,6 +95,126 @@
         {
           "titulo": "Como aprender a programar?",
           "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        }
+      ]
+    },
+    {
+      "titulo": "Entrevistas e Palestras",
+      "videos": [
+        {
+          "titulo": "Provoca - Paola Carosella",
+          "url": "https://www.youtube.com/watch?v=3FWFSkM8IZg"
+        },
+        {
+          "titulo": "Talk Flow - Canibalismo na Venezuela",
+          "url": "https://www.youtube.com/watch?v=i7ZNMVcbA2E"
+        },
+        {
+          "titulo": "Flow Podcast - Vitor Metaforando",
+          "url": "https://www.youtube.com/watch?v=tHbFukPmM9s"
+        },
+        {
+          "titulo": "Flow Podcast - Dilera",
+          "url": "https://www.youtube.com/watch?v=YdpzHlGau9o"
+        },
+        {
+          "titulo": "Flow Podcast - Pedro Loos",
+          "url": "https://www.youtube.com/watch?v=2YXEtKboQas"
+        },
+        {
+          "titulo": "Diffus - Aurora",
+          "url": "https://www.youtube.com/watch?v=iTyb_tNsvN4"
+        },
+        {
+          "titulo": "Mario Sergio Cortella - Eu não dirijo",
+          "url": "https://www.youtube.com/watch?v=Lg9TGWcBY4w"
+        }
+      ]
+    },
+    {
+      "titulo": "Músicas",
+      "videos": [
+        {
+          "titulo": "Aurora - Daydreamer",
+          "url": "https://www.youtube.com/watch?v=9KAQaKydqA0"
+        },
+        {
+          "titulo": "My First Story - Reviver",
+          "url": "https://www.youtube.com/watch?v=VvShHLo88_c"
+        },
+        {
+          "titulo": "Naruto Main Theme - Medieval style",
+          "url": "https://www.youtube.com/watch?v=-eR26nzi7Mw"
+        },
+        {
+          "titulo": "3DG - Somebody that I used to know cover",
+          "url": "https://www.youtube.com/watch?v=AhmsLuY0fNk"
+        },
+        {
+          "titulo": "Aurora - Scarborough Fair",
+          "url": "https://www.youtube.com/watch?v=4Kh6bZ8ky_I"
+        },
+        {
+          "titulo": "Summertime Sadness - Medieval style",
+          "url": "https://www.youtube.com/watch?v=BDaRBEz9M3c"
+        },
+        {
+          "titulo": "Confetti - Ghost",
+          "url": "https://www.youtube.com/watch?v=IDj_SBw3C_E"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "videos": [
+        {
+          "titulo": "Detroit: Become Human - What Happens if You Don't Let Chloe Go",
+          "url": "https://www.youtube.com/watch?v=Oy3s-B_JjBQ"
+        },
+        {
+          "titulo": "So I got addicted to Kingdom Come: Deliverance...",
+          "url": "https://www.youtube.com/watch?v=wuyl0Zrw3QI"
+        },
+        {
+          "titulo": "Paralives - Meet Sebastian",
+          "url": "https://www.youtube.com/watch?v=GJAm8UEi4CE"
+        },
+        {
+          "titulo": "RIO Raised In Oblivion - Teaser Trailer",
+          "url": "https://www.youtube.com/watch?v=l8ypmhlLtUE"
+        },
+        {
+          "titulo": "Civilization VI - Império Jovem Nerd",
+          "url": "https://www.youtube.com/watch?v=GYXitJlMf8M&t=223s"
+        }
+      ]
+    },
+    {
+      "titulo": "Culinária",
+      "videos": [
+        {
+          "titulo": "Nutella vegana caseira",
+          "url": "https://www.youtube.com/watch?v=31rXnKWYWrE"
+        },
+        {
+          "titulo": "Nhoque de legumes diversos",
+          "url": "https://www.youtube.com/watch?v=nGxj5wXUlsk"
+        },
+        {
+          "titulo": "5 lanches rápidos e saudáveis",
+          "url": "https://www.youtube.com/watch?v=nma2hkRg87k"
+        },
+        {
+          "titulo": "Ideias de café da manhã para toda a semana",
+          "url": "https://www.youtube.com/watch?v=qe3tftDehVw&t=191s"
+        },
+        {
+          "titulo": "Bolo de banana vegano",
+          "url": "https://www.youtube.com/watch?v=Ngy0DEGLmUA"
+        },
+        {
+          "titulo": "Receita de macarrão",
+          "url": "https://www.youtube.com/watch?v=qsghxhVBzNU"
         }
       ]
     }

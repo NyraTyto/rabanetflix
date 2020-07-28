@@ -9,7 +9,7 @@ function Footer() {
         <img className="Logo" src={Logo} alt="Rabanetflix logo" />
       </a>
       <p>
-        Criado por
+        &copy; Criado por
         {' '}
         <a href="https://www.linkedin.com/in/juana-paiva/">Juana Paiva</a>
         {' '}
