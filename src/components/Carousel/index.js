@@ -8,7 +8,7 @@ function Carousel({
   category,
 }) {
   const categoryTitle = category.titulo;
-  const videos = category.videos;
+  const { videos } = category;
   return (
     <VideoCardGroupContainer>
       {categoryTitle && (

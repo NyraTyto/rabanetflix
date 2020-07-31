@@ -1,13 +1,15 @@
+/* eslint-disable no-shadow */
 import React, { useState } from 'react';
-import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
+import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
 
 function CadastroCategoria() {
   const valoresIniciais = {
     nome: '',
     descricao: '',
-  }
+  };
 
   const [categoria, setCategoria] = useState([]);
   const [values, setValues] = useState(valoresIniciais);
@@ -22,7 +24,7 @@ function CadastroCategoria() {
   function handleChange(event) {
     setValue(
       event.target.getAttribute('name'),
-      event.target.value
+      event.target.value,
     );
   }
 
@@ -30,7 +32,7 @@ function CadastroCategoria() {
     event.preventDefault();
     setCategoria([
       ...categoria,
-      values
+      values,
     ]);
 
     setValues(valoresIniciais);
@@ -38,7 +40,10 @@ function CadastroCategoria() {
 
   return (
     <PageDefault>
-      <h1>Cadastro de Categoria: {values.nome}</h1>
+      <h1>
+        Cadastro de Categoria:
+        {values.nome}
+      </h1>
 
       <form onSubmit={handleSubmit}>
         <FormField
@@ -57,17 +62,15 @@ function CadastroCategoria() {
           onChange={handleChange}
         />
 
-        <button>Cadastrar</button>
+        <Button>Cadastrar</Button>
       </form>
 
       <ul>
-        {categoria.map((categoria, i) => {
-          return (
-            <li key={`${categoria}${i}`}>
-              {categoria.nome}
-            </li>
-          )
-        })}
+        {categoria.map((categoria) => (
+          <li key={`${categoria.nome}`}>
+            {categoria.nome}
+          </li>
+        ))}
       </ul>
 
       <Link to="/">
