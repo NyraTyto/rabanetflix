@@ -1,0 +1,14 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Programando",
+      "descricao": "Vídeos para aprender a programar"
+    },
+    {
+      "id": 2,
+      "nome": "Mundo da TI",
+      "descricao": "Vídeos gerais de programação"
+    }
+  ]
+}

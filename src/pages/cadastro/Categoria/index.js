@@ -1,5 +1,5 @@
 /* eslint-disable no-shadow */
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
@@ -38,6 +38,18 @@ function CadastroCategoria() {
     setValues(valoresIniciais);
   }
 
+  useEffect(() => {
+    const URL = 'http://localhost:3004/categorias/';
+
+    fetch(URL)
+      .then(async (res) => {
+        const response = await res.json();
+        setCategoria([
+          ...response,
+        ]);
+      });
+  }, []);
+
   return (
     <PageDefault>
       <h1>
@@ -64,6 +76,12 @@ function CadastroCategoria() {
 
         <Button>Cadastrar</Button>
       </form>
+
+      {categoria.length === 0 && (
+      <div>
+        Carregando...
+      </div>
+      )}
 
       <ul>
         {categoria.map((categoria) => (
