@@ -1,11 +1,13 @@
 /* eslint-disable no-shadow */
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
 import Table from '../../../components/Table';
+import BackArrow from '../../../assets/images/back.svg';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -44,6 +46,7 @@ function CadastroCategoria() {
     <PageDefault>
       <h1>
         Cadastro de Categoria:
+        {' '}
         {values.nome}
       </h1>
 
@@ -95,11 +98,36 @@ function CadastroCategoria() {
         </tbody>
       </Table>
 
-      <Link to="/">
-        Ir para home
-      </Link>
+      <LinkHome>
+        <img src={BackArrow} alt="Voltar para a página inicial" />
+        <Link to="/">
+          Página Inicial
+        </Link>
+      </LinkHome>
     </PageDefault>
   );
 }
+
+const LinkHome = styled.div`
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 180px;
+  height: 50px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  transition: .4s;
+  border: 1px solid var(--black);
+  padding: 15px;
+  
+  & img {
+    width: 15px;
+    margin-right: 10px;
+  }
+  &:hover {
+    border-radius: 4px;
+    border: 1px solid var(--white);
+  }
+`;
 
 export default CadastroCategoria;
