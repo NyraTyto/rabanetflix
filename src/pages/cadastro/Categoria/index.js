@@ -5,6 +5,7 @@ import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
+import Table from '../../../components/Table';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -63,22 +64,36 @@ function CadastroCategoria() {
           onChange={handleChange}
         />
 
-        <Button>Cadastrar</Button>
+        <Button type="submit">Cadastrar</Button>
       </form>
 
       {categoria.length === 0 && (
-      <div>
-        Carregando...
-      </div>
+        <div>
+          Carregando...
+        </div>
       )}
 
-      <ul>
-        {categoria.map((categoria) => (
-          <li key={`${categoria.titulo}`}>
-            {categoria.titulo}
-          </li>
-        ))}
-      </ul>
+      <Table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Descrição</th>
+            <th>Editar</th>
+            <th>Remover</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {categoria.map((categoria) => (
+            <tr key={`${categoria.titulo}`}>
+              <td>{categoria.titulo}</td>
+              <td>{categoria.descricao}</td>
+              <td><button type="button">Editar</button></td>
+              <td><button type="button">Remover</button></td>
+            </tr>
+          ))}
+        </tbody>
+      </Table>
 
       <Link to="/">
         Ir para home
