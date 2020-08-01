@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Menu from '../Menu';
 import Footer from '../Footer';
@@ -11,6 +10,7 @@ const Main = styled.main`
   padding: 50px 5% 0 5%;
 `;
 
+// eslint-disable-next-line react/prop-types
 function PageDefault({ children }) {
   return (
     <>
@@ -24,9 +24,5 @@ function PageDefault({ children }) {
     </>
   );
 }
-
-PageDefault.propTypes = {
-  children: PropTypes.string.isRequired,
-};
 
 export default PageDefault;

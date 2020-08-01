@@ -99,9 +99,9 @@ function CadastroCategoria() {
       </Table>
 
       <LinkHome>
-        <img src={BackArrow} alt="Voltar para a página inicial" />
-        <Link to="/">
-          Página Inicial
+        <img src={BackArrow} alt="Voltar" />
+        <Link to="/cadastro/video">
+          Voltar
         </Link>
       </LinkHome>
     </PageDefault>
