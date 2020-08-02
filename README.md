@@ -1,6 +1,6 @@
 <div align="center">
   <h1><img src="https://github.com/NyraTyto/rabanetflix/blob/master/src/assets/images/logo-rabanetflix.png" width=300 /></h1>  
-  <h4>This project is inspired on Netflix, created during the <a href="https://www.alura.com.br/">Alura</a>'s Imersão React bootcamp.</h4>
+  <h4>This project is inspired on Netflix, created during the <a href="https://www.alura.com.br/">Alura's</a> Imersão React bootcamp.</h4>
 </div>
 
 <hr />
