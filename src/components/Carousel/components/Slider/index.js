@@ -1,5 +1,5 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
-import PropTypes from 'prop-types';
 import SlickSlider from 'react-slick';
 import styled from 'styled-components';
 
@@ -53,9 +53,5 @@ const Slider = ({ children }) => (
     </SlickSlider>
   </Container>
 );
-
-Slider.propTypes = {
-  children: PropTypes.string.isRequired,
-};
 
 export default Slider;

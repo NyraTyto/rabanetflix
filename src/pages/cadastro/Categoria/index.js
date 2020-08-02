@@ -6,6 +6,7 @@ import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
+import Loading from '../../../components/Loading';
 import Table from '../../../components/Table';
 import BackArrow from '../../../assets/images/back.svg';
 
@@ -71,9 +72,10 @@ function CadastroCategoria() {
       </form>
 
       {categoria.length === 0 && (
-        <div>
+        <Loading>
+          <div className="spinner" />
           Carregando...
-        </div>
+        </Loading>
       )}
 
       <Table>
