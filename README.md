@@ -1,6 +1,6 @@
 <div align="center">
   <h1><img src="https://github.com/NyraTyto/rabanetflix/blob/master/src/assets/images/logo-rabanetflix.png" width=300 /></h1>  
-  <h4>This project is inspired on Netflix, created during the <a href="https://www.alura.com.br/">Alura's</a> Imersão React bootcamp.</h4>
+  <h4>This project is inspired on Netflix, created during the <a href="https://www.alura.com.br/">Alura's</a> Imersão React.</h4>
 </div>
 
 <hr />
@@ -18,10 +18,10 @@
   # Clone the repository
   $ git clone https://github.com/NyraTyto/rabanetflix.git
 
-  #If you have Visual Studio, code this to open the project:
+  #If you have Visual Studio Code, code this to open the project:
   $ code .
 
-  # Required intallations
+  # Required packages
   $ npm install
   $ npm install --save-dev concurrently
 
