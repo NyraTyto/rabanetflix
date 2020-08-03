@@ -1,220 +1,247 @@
 {
   "categorias": [
     {
-      "titulo": "Progamando",
+      "titulo": "Receitas Simples",
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Panquecas Americanas",
+          "url": "https://www.youtube.com/watch?v=c7MG-t5508E"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Bolo de BANANA CARAMELADA vegano",
+          "url": "https://www.youtube.com/watch?v=Ngy0DEGLmUA"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "SOBREMESA É MUITO FÁCIL",
+          "url": "https://www.youtube.com/watch?v=4EaNP3BXQAA"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "PIZZA DE FRIGIDEIRA",
+          "url": "https://www.youtube.com/watch?v=EKOUSAtme8Q"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "PÃO DE QUEIJO DE FRIGIDEIRA",
+          "url": "https://www.youtube.com/watch?v=Q4XB_LnHfWE"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "ENROLADINHO DE SALSICHA",
+          "url": "https://www.youtube.com/watch?v=KI3Cjd9QiCw"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-        },
-        {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        },
-        {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
-        },
-        {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
-        },
-        {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
-        },
-        {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        }, 
-        {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
-        }        
-      ]
-    },
-    {
-      "titulo": "Mundo da TI",
-      "videos": [
-        {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
-        },
-        {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
-        },
-        {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
-        },
-        {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
-        },
-        {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
-        },
-        {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
-        },
-        {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        },
-        {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
-        },
-        {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "PÃOZINHO DE BATATA",
+          "url": "https://www.youtube.com/watch?v=R_HjjmmfshI"
         }
       ]
     },
     {
-      "titulo": "Entrevistas e Palestras",
+      "titulo": "Refeições",
       "videos": [
         {
-          "titulo": "Provoca - Paola Carosella",
-          "url": "https://www.youtube.com/watch?v=3FWFSkM8IZg"
+          "titulo": "NHOQUE DE LEGUMES DIVERSOS",
+          "url": "https://www.youtube.com/watch?v=nGxj5wXUlsk"
         },
         {
-          "titulo": "Talk Flow - Canibalismo na Venezuela",
-          "url": "https://www.youtube.com/watch?v=i7ZNMVcbA2E"
+          "titulo": "NÃO FAÇA MACARRÃO ANTES DE VER ESSA RECEITA!",
+          "url": "https://www.youtube.com/watch?v=qsghxhVBzNU"
         },
         {
-          "titulo": "Flow Podcast - Vitor Metaforando",
-          "url": "https://www.youtube.com/watch?v=tHbFukPmM9s"
+          "titulo": "Omelete",
+          "url": "https://www.youtube.com/watch?v=dmM_fCViyLE"
         },
         {
-          "titulo": "Flow Podcast - Dilera",
-          "url": "https://www.youtube.com/watch?v=YdpzHlGau9o"
+          "titulo": "Nhoque da Paola",
+          "url": "https://www.youtube.com/watch?v=aLSxRA6HQo4&"
         },
         {
-          "titulo": "Flow Podcast - Pedro Loos",
-          "url": "https://www.youtube.com/watch?v=2YXEtKboQas"
+          "titulo": "PANQUECA",
+          "url": "https://www.youtube.com/watch?v=hBGqcogtJ1w"
         },
         {
-          "titulo": "Diffus - Aurora",
-          "url": "https://www.youtube.com/watch?v=iTyb_tNsvN4"
+          "titulo": "9 receitas com ovos",
+          "url": "https://www.youtube.com/watch?v=j4r8m9lrX3E"
         },
         {
-          "titulo": "Mario Sergio Cortella - Eu não dirijo",
-          "url": "https://www.youtube.com/watch?v=Lg9TGWcBY4w"
+          "titulo": "Molho de tomate",
+          "url": "https://www.youtube.com/watch?v=lSr2fEMiAGU"
         }
       ]
     },
     {
-      "titulo": "Músicas",
+      "titulo": "Marmitas",
       "videos": [
         {
-          "titulo": "Aurora - Daydreamer",
-          "url": "https://www.youtube.com/watch?v=9KAQaKydqA0"
+          "titulo": "CAFÉ DA MANHÃ PARA A SEMANA TODA",
+          "url": "https://www.youtube.com/watch?v=qe3tftDehVw&"
         },
         {
-          "titulo": "My First Story - Reviver",
-          "url": "https://www.youtube.com/watch?v=VvShHLo88_c"
+          "titulo": "ALMOÇO SAUDÁVEL DE SEGUNDA A SEXTA",
+          "url": "https://www.youtube.com/watch?v=NbgRvQW-TFA"
         },
         {
-          "titulo": "Naruto Main Theme - Medieval style",
-          "url": "https://www.youtube.com/watch?v=-eR26nzi7Mw"
+          "titulo": "ALMOÇOS VEGANOS DE SEGUNDA À SEXTA",
+          "url": "https://www.youtube.com/watch?v=4tgn9nvUFF4"
         },
         {
-          "titulo": "3DG - Somebody that I used to know cover",
-          "url": "https://www.youtube.com/watch?v=AhmsLuY0fNk"
+          "titulo": "MARMITAS VEGANAS PRA SEMANA",
+          "url": "https://www.youtube.com/watch?v=_i6wu8XNSRg"
         },
         {
-          "titulo": "Aurora - Scarborough Fair",
-          "url": "https://www.youtube.com/watch?v=4Kh6bZ8ky_I"
-        },
-        {
-          "titulo": "Summertime Sadness - Medieval style",
-          "url": "https://www.youtube.com/watch?v=BDaRBEz9M3c"
-        },
-        {
-          "titulo": "Confetti - Ghost",
-          "url": "https://www.youtube.com/watch?v=IDj_SBw3C_E"
+          "titulo": "UMA SEMANA VEGANA POR MENOS DE 50 REAIS",
+          "url": "https://www.youtube.com/watch?v=VjsC4Bw3nwg"
         }
       ]
     },
     {
-      "titulo": "Games",
+      "titulo": "Bolos e Tortas",
       "videos": [
         {
-          "titulo": "Detroit: Become Human - What Happens if You Don't Let Chloe Go",
-          "url": "https://www.youtube.com/watch?v=Oy3s-B_JjBQ"
+          "titulo": "Bolo Castella de Chocolate Taiwanês",
+          "url": "https://www.youtube.com/watch?v=6O95J_jtGY4"
         },
         {
-          "titulo": "So I got addicted to Kingdom Come: Deliverance...",
-          "url": "https://www.youtube.com/watch?v=wuyl0Zrw3QI"
+          "titulo": "Bolo de BANANA CARAMELADA vegano",
+          "url": "https://www.youtube.com/watch?v=Ngy0DEGLmUA"
         },
         {
-          "titulo": "Paralives - Meet Sebastian",
-          "url": "https://www.youtube.com/watch?v=GJAm8UEi4CE"
+          "titulo": "TORTA DE MAÇÃ AMERICANA CLÁSSICA (APPLE PIE)",
+          "url": "https://www.youtube.com/watch?v=n1Xsax1_PNc"
         },
         {
-          "titulo": "RIO Raised In Oblivion - Teaser Trailer",
-          "url": "https://www.youtube.com/watch?v=l8ypmhlLtUE"
+          "titulo": "Bolo TÍPICO da NORUEGA - Kvæfjordkake",
+          "url": "https://www.youtube.com/watch?v=j4cec90HbuI"
         },
         {
-          "titulo": "Civilization VI - Império Jovem Nerd",
-          "url": "https://www.youtube.com/watch?v=GYXitJlMf8M&t=223s"
+          "titulo": "BOLO DE BANANA COM AVEIA",
+          "url": "https://www.youtube.com/watch?v=6Jw09QkWHC4&"
+        },
+        {
+          "titulo": "BOLO COM RECHEIO FÁCIL E CREMOSO",
+          "url": "https://www.youtube.com/watch?v=oNjdUomKOQE&"
+        },
+        {
+          "titulo": "BOLO DE CENOURA COM CHOCOLATE - BOLO BOMBOM",
+          "url": "https://www.youtube.com/watch?v=eolyN2Q-HXk"
+        },
+        {
+          "titulo": "Chocolate Crepe Cake",
+          "url": "https://www.youtube.com/watch?v=DbET91p-UDs"
         }
       ]
     },
     {
-      "titulo": "Culinária",
+      "titulo": "Doces",
+      "videos": [
+        {
+          "titulo": "PICOLÉ CASEIRO FEITO NA CAIXINHA DE LEITE",
+          "url": "https://www.youtube.com/watch?v=A8667hKGpUk"
+        },
+        {
+          "titulo": "BRIGADEIRO DE BIOMASSA DE BANANA VERDE",
+          "url": "https://www.youtube.com/watch?v=m4hc3xU9LK8&t"
+        },
+        {
+          "titulo": "COOKIES RECHEADOS",
+          "url": "https://www.youtube.com/watch?v=48liYhR8U2Q"
+        },
+        {
+          "titulo": "Nutella Brownie Cookies Recipe",
+          "url": "https://www.youtube.com/watch?v=YKG_g9B4fQk"
+        },
+        {
+          "titulo": "SOBREMESA É MUITO FÁCIL",
+          "url": "https://www.youtube.com/watch?v=4EaNP3BXQAA"
+        },
+        {
+          "titulo": "PALHA ITALIANA",
+          "url": "https://www.youtube.com/watch?v=4EaNP3BXQAA"
+        }
+      ]
+    },
+    {
+      "titulo": "Receitas Veganas",
       "videos": [
         {
           "titulo": "Nutella vegana caseira",
           "url": "https://www.youtube.com/watch?v=31rXnKWYWrE"
         },
         {
-          "titulo": "Nhoque de legumes diversos",
-          "url": "https://www.youtube.com/watch?v=nGxj5wXUlsk"
+          "titulo": "BRIGADEIRO DE BIOMASSA DE BANANA VERDE",
+          "url": "https://www.youtube.com/watch?v=m4hc3xU9LK8&t"
         },
+        {
+          "titulo": "Bolo de BANANA CARAMELADA vegano",
+          "url": "https://www.youtube.com/watch?v=Ngy0DEGLmUA"
+        }
+      ]
+    },
+    {
+      "titulo": "Lanches",
+      "videos": [
         {
           "titulo": "5 lanches rápidos e saudáveis",
           "url": "https://www.youtube.com/watch?v=nma2hkRg87k"
         },
         {
-          "titulo": "Ideias de café da manhã para toda a semana",
-          "url": "https://www.youtube.com/watch?v=qe3tftDehVw&t=191s"
+          "titulo": "5 Sandwiches for Picnic",
+          "url": "https://www.youtube.com/watch?v=dvlT4fUb2xQ"
         },
         {
-          "titulo": "Bolo de banana vegano",
-          "url": "https://www.youtube.com/watch?v=Ngy0DEGLmUA"
+          "titulo": "Panquecas Americanas",
+          "url": "https://www.youtube.com/watch?v=c7MG-t5508E"
         },
         {
-          "titulo": "Receita de macarrão",
-          "url": "https://www.youtube.com/watch?v=qsghxhVBzNU"
+          "titulo": "PÃOZINHO DE BATATA",
+          "url": "https://www.youtube.com/watch?v=R_HjjmmfshI"
+        }
+      ]
+    },
+    {
+      "titulo": "Besteirites",
+      "videos": [
+        {
+          "titulo": "PIZZA DE FRIGIDEIRA",
+          "url": "https://www.youtube.com/watch?v=EKOUSAtme8Q"
+        },
+        {
+          "titulo": "PÃO DE QUEIJO DE FRIGIDEIRA",
+          "url": "https://www.youtube.com/watch?v=Q4XB_LnHfWE"
+        },
+        {
+          "titulo": "BOLINHA DE QUEIJO",
+          "url": "https://www.youtube.com/watch?v=H8yL3r8FDZg"
+        },
+        {
+          "titulo": "ENROLADINHO DE SALSICHA",
+          "url": "https://www.youtube.com/watch?v=KI3Cjd9QiCw"
+        }
+      ]
+    },
+    {
+      "titulo": "Dicas",
+      "videos": [
+        {
+          "titulo": "O QUE FAZER COM BANANA MADURA",
+          "url": "https://www.youtube.com/watch?v=nSI2pQ7f-4U&"
+        },
+        {
+          "titulo": "4 tipos de alimentos que você pode desfrutar enquanto faz dieta",
+          "url": "https://www.youtube.com/watch?v=Q5lXMv0Tv9g"
+        },
+        {
+          "titulo": "SALADA SEM GRAÇA NUNCA MAIS!",
+          "url": "https://www.youtube.com/watch?v=1jbFqjZrOBw&"
+        },
+        {
+          "titulo": "5 receitas fáceis demais",
+          "url": "https://www.youtube.com/watch?v=aErndljJOUY"
+        },
+        {
+          "titulo": "34 TRUQUES DELICIOSOS COM QUEIJO",
+          "url": "https://www.youtube.com/watch?v=Zi7YQpERI1k"
+        },
+        {
+          "titulo": "9 receitas com ovos",
+          "url": "https://www.youtube.com/watch?v=j4r8m9lrX3E"
         }
       ]
     }

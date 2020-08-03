@@ -12,7 +12,7 @@ import BackArrow from '../../../assets/images/back.svg';
 
 function CadastroCategoria() {
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
   };
 
@@ -48,15 +48,15 @@ function CadastroCategoria() {
       <h1>
         Cadastro de Categoria:
         {' '}
-        {values.nome}
+        {values.titulo}
       </h1>
 
       <form onSubmit={handleSubmit}>
         <FormField
-          label="Nome da categoria"
+          label="Título da categoria"
           type="text"
-          name="nome"
-          value={values.nome}
+          name="titulo"
+          value={values.titulo}
           onChange={handleChange}
         />
 
@@ -81,7 +81,7 @@ function CadastroCategoria() {
       <Table>
         <thead>
           <tr>
-            <th>Nome</th>
+            <th>Título</th>
             <th>Descrição</th>
             <th>Editar</th>
             <th>Remover</th>
