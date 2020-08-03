@@ -2,39 +2,48 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "Receitas Simples"
+      "titulo": "Receitas Simples",
+      "descricao": "Receitas simples e rápidas"
     },
     {
       "id": 2,
-      "titulo": "Refeições"
+      "titulo": "Refeições",
+      "descricao": "Pratos únicos para café da manhã, almoço e janta"
     },
     {
       "id": 3,
-      "titulo": "Marmitas"
+      "titulo": "Marmitas",
+      "descricao": "Conjunto de refeições para a semana toda"
     },
     {
       "id": 4,
-      "titulo": "Bolos e Tortas"
+      "titulo": "Bolos e Tortas",
+      "descricao": "Bolos e tortas dos mais simples aos mais complexos"
     },
     {
       "id": 5,
-      "titulo": "Doces"
+      "titulo": "Doces",
+      "descricao": "Doces de todos os tipos"
     },
     {
       "id": 6,
-      "titulo": "Receitas Veganas"
+      "titulo": "Receitas Veganas",
+      "descricao": "Refeições, doces e outros completemanete veganos"
     },
     {
       "id": 7,
-      "titulo": "Lanches"
+      "titulo": "Lanches",
+      "descricao": "Lanches para passar a tarde ou para viagem"
     },
     {
       "id": 8,
-      "titulo": "Besteirites"
+      "titulo": "Besteirites",
+      "descricao": "Salgados e outros para matar a vontade de comer besteira"
     },
     {
       "id": 9,
-      "titulo": "Dicas"
+      "titulo": "Dicas",
+      "descricao": "Dicas de culinária, ideias e muito mais"
     }
   ],
   "videos": [
@@ -256,87 +265,105 @@
     },
     {
       "id": 37,
+      "categoriaId": 6,
+      "titulo": "'Carne' de Jaca Verde (e Fricassê Vegano)",
+      "url": "https://www.youtube.com/watch?v=dpkFE06m22o"
+    },
+    {
+      "id": 38,
+      "categoriaId": 6,
+      "titulo": "Mousse vegano de chocolate e maracujá",
+      "url": "https://www.youtube.com/watch?v=--kHYsTqxMw&"
+    },
+    {
+      "id": 39,
       "categoriaId": 7,
       "titulo": "5 lanches rápidos e saudáveis",
       "url": "https://www.youtube.com/watch?v=nma2hkRg87k"
     },
     {
-      "id": 38,
+      "id": 40,
       "categoriaId": 7,
       "titulo": "5 Sandwiches for Picnic",
       "url": "https://www.youtube.com/watch?v=dvlT4fUb2xQ"
     },
     {
-      "id": 39,
+      "id": 41,
       "categoriaId": 7,
       "titulo": "Panquecas Americanas",
       "url": "https://www.youtube.com/watch?v=c7MG-t5508E"
     },
     {
-      "id": 40,
+      "id": 42,
       "categoriaId": 7,
       "titulo": "PÃOZINHO DE BATATA",
       "url": "https://www.youtube.com/watch?v=R_HjjmmfshI"
     },
     {
-      "id": 41,
+      "id": 43,
       "categoriaId": 8,
       "titulo": "PIZZA DE FRIGIDEIRA",
       "url": "https://www.youtube.com/watch?v=EKOUSAtme8Q"
     },
     {
-      "id": 42,
+      "id": 44,
       "categoriaId": 8,
       "titulo": "PÃO DE QUEIJO DE FRIGIDEIRA",
       "url": "https://www.youtube.com/watch?v=Q4XB_LnHfWE"
     },
     {
-      "id": 43,
+      "id": 45,
       "categoriaId": 8,
       "titulo": "BOLINHA DE QUEIJO",
       "url": "https://www.youtube.com/watch?v=H8yL3r8FDZg"
     },
     {
-      "id": 44,
+      "id": 46,
       "categoriaId": 8,
       "titulo": "ENROLADINHO DE SALSICHA",
       "url": "https://www.youtube.com/watch?v=KI3Cjd9QiCw"
     },
     {
-      "id": 45,
+      "id": 47,
       "categoriaId": 9,
       "titulo": "O QUE FAZER COM BANANA MADURA",
       "url": "https://www.youtube.com/watch?v=nSI2pQ7f-4U&"
     },
     {
-      "id": 46,
+      "id": 48,
       "categoriaId": 9,
       "titulo": "4 tipos de alimentos que você pode desfrutar enquanto faz dieta",
       "url": "https://www.youtube.com/watch?v=Q5lXMv0Tv9g"
     },
     {
-      "id": 47,
+      "id": 49,
       "categoriaId": 9,
       "titulo": "SALADA SEM GRAÇA NUNCA MAIS!",
       "url": "https://www.youtube.com/watch?v=1jbFqjZrOBw&"
     },
     {
-      "id": 48,
+      "id": 50,
       "categoriaId": 9,
       "titulo": "5 receitas fáceis demais",
       "url": "https://www.youtube.com/watch?v=aErndljJOUY"
     },
     {
-      "id": 49,
+      "id": 51,
       "categoriaId": 9,
       "titulo": "34 TRUQUES DELICIOSOS COM QUEIJO",
       "url": "https://www.youtube.com/watch?v=Zi7YQpERI1k"
     },
     {
-      "id": 50,
+      "id": 52,
       "categoriaId": 9,
       "titulo": "9 receitas com ovos",
       "url": "https://www.youtube.com/watch?v=j4r8m9lrX3E"
+    },
+    {
+      "titulo": "SORVETE VEGANO",
+      "url": "https://www.youtube.com/watch?v=divlj_H8BE0",
+      "categoriaId": 6,
+      "id": 53
     }
   ]
 }
