@@ -20,6 +20,12 @@ const Button = styled.button`
   &:focus {
     opacity: .5;
   }
+
+  &.botaoCadastrar {
+    padding: 16px 56px;
+    display: block;
+    margin: 0 auto;
+  }
 `;
 
 export default Button;

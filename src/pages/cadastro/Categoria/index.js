@@ -1,14 +1,11 @@
 /* eslint-disable no-shadow */
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import styled from 'styled-components';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
 import Loading from '../../../components/Loading';
 import Table from '../../../components/Table';
-import BackArrow from '../../../assets/images/back.svg';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -44,7 +41,7 @@ function CadastroCategoria() {
   }, []);
 
   return (
-    <PageDefault>
+    <PageDefault page="categoria">
       <h1>
         Cadastro de Categoria:
         {' '}
@@ -68,7 +65,7 @@ function CadastroCategoria() {
           onChange={handleChange}
         />
 
-        <Button type="submit">Cadastrar</Button>
+        <Button type="submit" className="botaoCadastrar">Cadastrar</Button>
       </form>
 
       {categoria.length === 0 && (
@@ -99,37 +96,8 @@ function CadastroCategoria() {
           ))}
         </tbody>
       </Table>
-
-      <LinkHome>
-        <img src={BackArrow} alt="Voltar" />
-        <Link to="/cadastro/video">
-          Voltar
-        </Link>
-      </LinkHome>
     </PageDefault>
   );
 }
-
-const LinkHome = styled.div`
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  width: 180px;
-  height: 50px;
-  margin-bottom: 50px;
-  font-weight: bold;
-  transition: .4s;
-  border: 1px solid var(--black);
-  padding: 15px;
-  
-  & img {
-    width: 15px;
-    margin-right: 10px;
-  }
-  &:hover {
-    border-radius: 4px;
-    border: 1px solid var(--white);
-  }
-`;
 
 export default CadastroCategoria;

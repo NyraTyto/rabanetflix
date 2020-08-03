@@ -14,10 +14,10 @@ const Main = styled.main`
 `;
 
 // eslint-disable-next-line react/prop-types
-function PageDefault({ children, paddingAll }) {
+function PageDefault({ children, paddingAll, page }) {
   return (
     <>
-      <Menu />
+      <Menu page={page} />
 
       <Main paddingAll={paddingAll}>
         {children}

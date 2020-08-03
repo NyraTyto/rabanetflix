@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Table = styled.table`
   box-sizing: border-box;
   width: 100%;
-  margin: 40px 0;
+  margin: 40px 0 60px 0;
   border-spacing: 0;
 
   & th,

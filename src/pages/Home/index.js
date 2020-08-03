@@ -21,7 +21,7 @@ function Home() {
   }, []);
 
   return (
-    <PageDefault paddingAll={0}>
+    <PageDefault paddingAll={0} page="home">
       {dadosIniciais.length === 0 && (
         <LoadingHome>
           <img src={rabanete} alt="Loading" />
