@@ -1,48 +1,61 @@
-import React from 'react';
-import Menu from '../../components/Menu';
-import dadosIniciais from '../../data/dados_iniciais.json';
+import React, { useEffect, useState } from 'react';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
-import Footer from '../../components/Footer';
+import PageDefault from '../../components/PageDefault';
+import categoryRepository from '../../repositories/categories';
+import LoadingHome from '../../components/LoadingHome';
+import rabanete from '../../assets/images/rabanete.png';
 
 function Home() {
+  const [dadosIniciais, setDadosIniciais] = useState([]);
+
+  useEffect(() => {
+    // http://localhost:8080/categorias?_embed=videos
+    categoryRepository.getAllWithVideos()
+      .then((categoriesWithVideos) => {
+        setDadosIniciais(categoriesWithVideos);
+      })
+      .catch((err) => {
+        console.log(err.message);
+      });
+  }, []);
+
   return (
-    <div style={{ background: '#141414' }}>
-      <Menu />
+    <PageDefault paddingAll={0}>
+      {dadosIniciais.length === 0 && (
+        <LoadingHome>
+          <img src={rabanete} alt="Loading" />
+          <div className="loading">Carregando</div>
+        </LoadingHome>
+      )}
 
-      <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription="O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!"
-      />
+      {dadosIniciais.map((categoria, i) => {
+        if (i === 0) {
+          return (
+            <div key={categoria.id}>
+              <BannerMain
+                videoTitle="Bem vindo ao Rabanetflix!"
+                url={dadosIniciais[0].videos[0].url}
+                videoDescription="O Rabanetflix é um site inspirado na Netflix e foi criado durante a Imersão React Alura.
+              Navegue pelas categorias de dar água na boca e delicie-se com os diversos vídeos de receitas!"
+              />
 
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[0]}
-      />
+              <Carousel
+                ignoreFirstVideo
+                category={dadosIniciais[0]}
+              />
+            </div>
+          );
+        }
 
-      <Carousel
-        category={dadosIniciais.categorias[1]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[2]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[3]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[4]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[5]}
-      />
-
-      <Footer />
-    </div>
+        return (
+          <Carousel
+            key={categoria.id}
+            category={categoria}
+          />
+        );
+      })}
+    </PageDefault>
   );
 }
 

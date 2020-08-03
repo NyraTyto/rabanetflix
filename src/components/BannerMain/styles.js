@@ -46,21 +46,24 @@ ContentAreaContainer.Category = styled.h1`
 `;
 
 ContentAreaContainer.Description = styled.p`
+  line-height: 1.5;
+
   @media (max-width: 800px) {
     display: none;
   }
 `;
 
 ContentAreaContainer.Title = styled.h2`
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
-  font-weight: 300;
-  font-size: 40px;
-  line-height: 1;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 0;
   margin-top: 0;
   margin-bottom: 32px;
 
   @media (max-width: 800px) {
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
   }
 `;
